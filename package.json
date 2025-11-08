@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lightbox2": "^2.11.4",
+    "masonry-layout": "^4.2.2"
+  }
+}

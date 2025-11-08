@@ -1,0 +1,16 @@
+RewriteEngine On
+
+#RewriteRule ^css/(.+)?$ css/$1 [NC,L]
+#RewriteRule ^img/(.+)?$ img/$1 [NC,L]
+#RewriteRule ^js/(.+)?$ js/$1 [NC,L]
+
+#RewriteRule ^api/(\w+)/?$ api.php?c=$1
+#RewriteRule ^api/(\w+)/(\w+)/?$ api.php?c=$1&a=$2
+#RewriteRule ^api/(\w+)/(\w+)/([a-zA-Z0-9-]*)/?$ api.php?c=$1&a=$2&id=$3
+#RewriteRule ^api/(.+)?$ api.php
+
+#RewriteRule ^(\w+)/?$ index.php?c=$1
+#RewriteRule ^(\w+)/(\w+)/?$ index.php?c=$1&a=$2
+#RewriteRule ^(\w+)/(\w+)/([a-zA-Z0-9-]*)/?$ index.php?c=$1&a=$2&id=$3
+
+ErrorDocument 404 /404.php
